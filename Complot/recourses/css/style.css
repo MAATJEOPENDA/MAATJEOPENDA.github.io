@@ -1,0 +1,87 @@
+#imageflatearth1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 650px;
+  height: auto;
+}
+
+.bigdaddy2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: darkgray;
+}
+
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+
+.ouder {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: lightgray;
+    width: 100%;
+    height: 1000px;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+}
+li {
+  display: block;
+  float: left;
+  width: 325px;
+  overflow: hidden;
+  position: relative;
+  font-family: 'cavolini', cursive;
+  font-size: 1.5em;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: darkgray;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+li a:hover{
+  color: navy
+}
+
+p{
+  font-size: 25px;
+  width: 70%;
+  text-align: left;
+  line-height: 1.5
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mooi {
+display: flex;
+flex-direction: column;
+align-items: flex-top;
+background-color: lightgray;
+width: 100%;
+height: 100%;
+padding: 0px 2px;
+font-family: "times new roman", serif;
+}
+
+@media only screen and (max-width: 600px) {
+  p{
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,114 @@
+* {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bigdaddy2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #575c58;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin-left: 0%; !important
+}
+.intro {
+  padding-top: 50px;
+}
+.home {
+  display: flex;
+    flex-direction: column;
+}
+
+body {
+  background-color: lightgray;
+}
+
+
+.SWT {
+  display: flex;
+  flex-direction: column;
+  justiy-content: space-around;
+}
+
+.dctheory1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.dctheory2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.dctheory3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.dctheory4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.dctheory5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Theory1SW {
+  display: flex;
+  flex-direction: row;
+}
+
+.Theory2SW {
+  display: flex;
+  flex-direction: row;
+}
+
+.Theory3SW {
+  display: flex;
+  flex-direction: row;
+}
+
+.Theory4SW {
+  display: flex;
+  flex-direction: row;
+}
+
+.Theory5SW {
+  display: flex;
+  flex-direction: row;
+}
+
+.mtheory1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mtheory2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mtheory3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mtheory4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mtheory5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.home {
+  position: absolute;
+  left: 90%
+}
